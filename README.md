@@ -10,6 +10,6 @@ repo. The environment can be setup as follows:
 
 To deactivate the environment execute `deactivate`
 
-The capsuled source code is run in jupyter notebooks. To start the jupyter server execute `jupyter notebook` either from ropeprojectof repo or within each sub-directory.
+The capsuled source code is run in jupyter notebooks. To start the jupyter server execute `jupyter notebook` either from root of the repo or within each sub-directory.
 
 ## Contents
