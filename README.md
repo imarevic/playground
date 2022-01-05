@@ -12,4 +12,17 @@ To deactivate the environment execute `deactivate`
 
 The capsuled source code is run in jupyter notebooks. To start the jupyter server execute `jupyter notebook` either from root of the repo or within each sub-directory.
 
+---
+
 ## Contents
+
+| Topic            | Source Code / Notebooks |
+|------------------|-------------------------|
+| Polya Urn Models | [polya_urn_basics](https://github.com/imarevic/playground/polya_urn_models/polya_urn_basics.ipynb)                       |
+|                  |                         |
+|                  |                         |
+
+---
+**License**
+
+Apache Software License 2.0
