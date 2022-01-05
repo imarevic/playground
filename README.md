@@ -18,7 +18,7 @@ The capsuled source code is run in jupyter notebooks. To start the jupyter serve
 
 | Topic            | Source Code / Notebooks |
 |------------------|-------------------------|
-| Polya Urn Models | [polya_urn_basics](https://github.com/imarevic/playground/polya_urn_models/polya_urn_basics.ipynb)                       |
+| Polya Urn Models | [polya_urn_basics](https://github.com/imarevic/playground/blob/main/polya_urn_models/polya_urn_basics.ipynb)                       |
 |                  |                         |
 |                  |                         |
 
