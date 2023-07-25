@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<link rel="stylesheet" href="stylesheet.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script type="text/javascript" src="logic.js"></script>
+</head>
+<body>
+<div class="container">
+
+    <h1>Sample Date Calculator</h1>
+
+<div class="row outer-rect">
+
+    <div class="col d-flex justify-content-center">
+        <label class="px-2" for="start">Start Datum:</label>
+        <input type="date" data-date-format="DD MMMM YYYY" id="start" name="start-date"
+            value="2023-07-22"
+            min="2023-01-01" max="2023-12-31">
+    </div>
+    <div class="w-100"></div>
+    
+    <div class="col d-flex justify-content-center">
+    <div class="py-3">Anzahl der Sitzungen:</div>
+        <div class="py-3 px-2">
+            <button id="btn1" type="button" class="btn btn-outline-primary px-2 btn-sm">3</button>
+            <button id="btn2" type="button" class="btn btn-outline-primary px-2 btn-sm">6</button>
+            <button id="btn3" type="button" class="btn btn-outline-primary px-2 btn-sm">9</button>
+            <button id="btn4" type="button" class="btn btn-outline-primary px-2 btn-sm">12</button>
+        </div>
+    </div>
+    <div class="w-100"></div>
+
+    <div class="col d-flex justify-content-center"> 
+        <div class="py-3 px-2">
+            <button id="toggle1" type="button" class="btn btn-outline-primary px-2 btn-sm">Wöchentlich</button>
+            <button id="toggle2" type="button" class="btn btn-outline-primary px-2 btn-sm">14-Tägig</button>
+        </div>
+    </div> 
+    <div class="w-100"></div>
+
+    <div class="col d-flex justify-content-center"> 
+        <div class="py-3 px-2">
+            <button id="btn-calc" type="button" class="btn btn-primary px-2 btn-sm" data-bs-toggle="collapse" href="#collapseResult" aria-expanded="false" aria-controls="collapseResult">Berechnen</button>
+        </div>
+    </div>  
+    <div class="w-100"></div>
+
+    <div class="col justify-content-center result-rect collapse" id="collapseResult">
+        <div id="result-text" class="card card-body">
+          Bitte zuerst die Anzahl Sitzungen und Intervalle wählen.
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
+
